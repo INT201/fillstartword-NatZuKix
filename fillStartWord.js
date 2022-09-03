@@ -9,7 +9,8 @@ function fillStartWord(startWord, word) {
     return startWord+word;
   }
 }
-//module.exports = fillStartWord
-console.log(fillStartWord("js","beginner"));
-console.log(fillStartWord("first","firststep"));
-console.log(fillStartWord("first",null));
+module.exports = fillStartWord
+// console.log(fillStartWord("JS","beginner"));
+// console.log(fillStartWord("first","firststep"));
+// console.log(fillStartWord("1-2565-","Hello World"));
+// console.log(fillStartWord("second",undefined));
